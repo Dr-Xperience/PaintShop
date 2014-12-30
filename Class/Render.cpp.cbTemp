@@ -32,7 +32,6 @@ public:
         isFill=false;
         isSphere=false;
         isRectangle=false;
-        isLine=false;
         fillColor[0]=0.0f;
         fillColor[1]=0.0f;
         fillColor[2]=0.0f;

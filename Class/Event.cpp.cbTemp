@@ -281,16 +281,16 @@ static void Green2Callback()
  */
 void Font(void *font,char *text,int x,int y)
 {
-    glRasterPos2f(x/300.0f, y/300.0f);
-//    glRasterPos2f(0, 0);
-//    glColor3f(0,0,0);
-//    glutBitmapCharacter( font, 'a');
+    //glRasterPos2f(x/300.0f, y/300.0f);
+    glRasterPos2f(0, 0);
     glColor3f(0,0,0);
-	while( *text != '\0' )
-	{
-		glutBitmapCharacter( font, *text );
-		++text;
-	}
+    glutBitmapCharacter( font, 'a');
+    glColor3f(0,0,0);
+//	while( *text != '\0' )
+//	{
+//		glutBitmapCharacter( font, *text );
+//		++text;
+//	}
 }
 
 
